@@ -1,8 +1,8 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -I/usr/local/include/opencv4
 LDFLAGS = -lopencv_core -lopencv_imgproc -lopencv_imgcodecs -lopencv_highgui
-TARGET = pruebas
-SRC = pruebas.cpp
+TARGET = main
+SRC = main.cpp
 
 all: $(TARGET)
 
